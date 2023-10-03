@@ -1,0 +1,246 @@
+.page5 .image, .page5 .page5__section, .page5, .page4 .page4__section, .page4, .page3 .page3__section-item, .page3 .page3__section, .page3, .page2 .page2__section-item, .page2 .page2__section, .page2, .page1 .page1__section-item, .page1 .page1__section, .page1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page1 {
+  flex-direction: column;
+  margin-top: 200px;
+}
+.page1 h1 {
+  max-width: 450px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.page1 p {
+  font-size: 22px;
+  max-width: 600px;
+  text-align: center;
+}
+.page1 .page1__section {
+  gap: 6.609px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.page1 .page1__section-item {
+  width: 400px;
+  height: 223px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 38px;
+}
+.page1 .page1__section-item img {
+  width: 90px;
+  height: 90px;
+  padding-top: 10px;
+}
+.page1 .page1__section-item h4 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 200px;
+}
+.page1 .page1__section-item p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 200px;
+}
+.page1 a {
+  padding: 16px 24px;
+  border-radius: 3px;
+  background: #190083;
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  margin: 75px;
+}
+
+.page2 {
+  width: 100%;
+  height: 900px;
+  flex-direction: column;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  gap: 270px;
+}
+.page2 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 350px;
+}
+.page2 .page2__section {
+  width: 90%;
+  align-self: flex-end;
+  justify-content: flex-start;
+  background: #FFF;
+  padding: 60px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.page2 .page2__section img {
+  width: 100px;
+  height: 100px;
+}
+.page2 .page2__section-item {
+  align-items: flex-start;
+  max-width: 770px;
+  height: 136px;
+  padding-top: 7px;
+  flex-direction: column;
+  gap: 17px;
+}
+.page2 .page2__section-item h2 {
+  font-size: 21px;
+  font-weight: 700;
+  max-width: 450px;
+}
+
+.page3 {
+  flex-direction: column;
+}
+.page3 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 745px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.page3 p {
+  font-size: 22px;
+  text-align: center;
+  max-width: 560px;
+}
+.page3 .page3__section {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 100px 0px;
+}
+.page3 .page3__section-item {
+  width: 200px;
+  height: 224px;
+  flex-direction: column;
+  gap: 16px;
+}
+.page3 .page3__section-item .page3__desc {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.page3 .page3__section-image {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.page3 .page3__section-image img {
+  width: 190px;
+  height: 190px;
+}
+.page3 .page3__section-image p {
+  position: absolute;
+  font-size: 17px;
+  max-width: 60px;
+  top: 0;
+  right: 43px;
+}
+
+.page4 {
+  width: 100%;
+  height: 100vh;
+  background: #F3E02B;
+}
+.page4 .page4__section {
+  max-width: 1280px;
+  height: 400px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.page4 .page4__section h1 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 441px;
+}
+.page4 .page4__section p {
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  max-width: 647px;
+}
+.page4 .page4__section a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 24px;
+  border-radius: 3px;
+  background: #190083;
+}
+
+.page5 {
+  width: 100%;
+}
+.page5 .page5__section {
+  width: 100%;
+  height: 830px;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.page5 h2 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 460px;
+}
+.page5 .page5__section-item {
+  width: 100%;
+  height: 630px;
+  background-image: url(../images/bg5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.page5 .image {
+  max-width: 500px;
+  height: 474px;
+  background: #FFF;
+  flex-direction: column;
+  gap: 60px;
+  margin: 80px;
+}
+.page5 .image p {
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  max-width: 360px;
+}
+.page5 .image img {
+  width: 63%;
+  height: 35%;
+}
+
+@media (max-width: 768px) and (min-width: 447px) {
+  .page5 .image {
+    height: 400px;
+  }
+  .page5 .image p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 447px) {
+  .page5 .image {
+    height: 300px;
+    width: 80%;
+  }
+  .page5 .image p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=section.css.map */

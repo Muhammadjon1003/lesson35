@@ -1,0 +1,132 @@
+header .search, header .header__desc, header .header__section, header .navbar3, header .navbar2 ul, header .navbar2, header .navbar1 ul, header .navbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+header nav {
+  width: 100%;
+}
+header .navbar1 {
+  width: 100%;
+  padding: 25px 80px;
+  background: rgb(1, 1, 65);
+}
+header .navbar1 ul {
+  gap: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+header .navbar1 a {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+  color: #000;
+}
+header .navbar2 {
+  width: 100%;
+  height: 50px;
+  padding: 0 80px;
+}
+header .navbar2 ul {
+  gap: 30px;
+  color: #000;
+  font-size: 14px;
+}
+header .navbar3 {
+  width: 100%;
+  padding: 15px;
+  background: #D3F1F3;
+  justify-content: center;
+}
+header .navbar3 p {
+  font-size: 16px;
+}
+header .navbar3 p:nth-child(1) {
+  font-weight: 700;
+}
+header .header__section {
+  width: 100%;
+  height: 584px;
+  background-image: url(../../images/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+header .header__desc {
+  max-width: 500px;
+  flex-direction: column;
+}
+header .header__desc h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+header .header__desc p {
+  font-size: 27px;
+}
+header .search {
+  gap: 30px;
+  flex-wrap: wrap;
+}
+header .search button {
+  width: 108px;
+  height: 46px;
+  border-radius: 3px;
+  background: #190083;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+}
+header .search input {
+  width: 340px;
+  height: 46px;
+  border-radius: 3px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  border: none;
+}
+header .search input::-moz-placeholder {
+  padding: 10px;
+}
+header .search input::placeholder {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  header .navbar2 {
+    padding: 10px;
+  }
+  header .navbar2 ul {
+    gap: 10px;
+  }
+}
+@media (max-width: 520px) {
+  header .navbar2 {
+    padding: 10px;
+  }
+  header .navbar2 ul {
+    display: none;
+  }
+  header .navbar1 {
+    padding: 20px 10px;
+  }
+  header .navbar1 ul {
+    gap: 10px;
+  }
+  header .search input {
+    width: 80%;
+  }
+}/*# sourceMappingURL=header.css.map */
